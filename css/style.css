@@ -1,0 +1,333 @@
+
+/* tags html */
+
+html {
+    background: #101010;
+    color: white;
+}
+
+body {
+    margin: 10px auto ;
+
+}
+
+p a {
+    text-decoration: none;
+    color: #1609FF;
+}
+
+button {
+    text-decoration: none;
+    color: #1609FF;
+    background-color: #101010;
+    border: none;
+    font-size: 15px
+}
+
+button:hover {
+    text-decoration: none;
+    color: white;
+    border: none;
+    cursor: pointer
+    
+}
+
+#titlemain{
+    margin-top: 100px;
+}
+
+
+h2 {
+    margin-top: 100px;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    }
+
+.gab {
+    text-align: center;
+    font-family: arial;
+}
+
+/* tags html */
+
+
+/* classes*/
+
+
+.title{
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+}
+
+.notices{
+    font-family: arial;
+    text-align: center;
+}
+
+
+
+.imgs{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+
+}
+
+#futlogo{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* classes*/
+
+#pagestyle{
+    display: flex;
+    width: calc(1500px/3);
+    height: 50px;
+    background-color: rgb(134, 182, 63);
+    margin: 30%;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0;
+}
+
+#pagestyle a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 0;
+    line-height: 50px;
+}
+
+.ordem{
+    list-style: none;
+    width: calc(1200px/3);
+    height: auto;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    color: black;
+    display: inline-block;
+}
+
+.ordem:hover{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.ordem2{
+    list-style: none;
+    display: inline;
+    width: calc(900px/2);
+    height: auto;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+.ordem2:hover{
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+
+
+#frontarrow{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+
+#arrowback{
+    position: absolute;
+    right: 5px;
+    top: 13px;    
+}
+
+
+#casa{
+    position: absolute;
+    right: 5px;
+    top: 12px;
+}
+
+
+#casa2{
+    position: absolute;
+    right: 18px;
+    top: 13px;
+}
+
+#navegacao{
+    position: fixed;
+    top: 0px;
+    width: 80px;
+    height: 80px;
+    background-color: #1a1a1a;
+    display: flex;
+}
+
+
+#menu{
+    cursor: pointer;
+    font-size: 80px;
+    margin: auto;
+}
+
+
+#paginas{
+    position: fixed;
+    left: 80px;
+    background-color: #1a1a1a;
+    height: 80px;
+    width: 100%;
+    padding: 0;
+    flex-direction: row;
+
+    align-content: center;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#links{
+    text-align: center;
+    flex-direction: row;
+}
+
+#links a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@keyframes slidein{
+    from{
+        width: 0%;
+    }
+
+    to{
+        width: 100%;
+    }
+
+
+}
+
+@keyframes slidein2{
+    from{
+        width: 0%;
+    }
+
+    to{
+        width: 200px;
+    }
+}
+
+.breadcrump {
+    margin-top:5%;
+    flex-direction: row;
+    list-style: none;
+    margin: auto;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.breadcrump a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#notice1:before{
+    content: "/";
+    color: white;
+    padding: 8px;
+}
+
+#breaddiv{
+    display: flex;
+    width: calc(400px/2);
+    height: 50px;
+    background-color: #101010;
+    margin: 5% auto;
+}
+
+#menu2{
+    position: fixed;
+    margin-top: 4%;
+    width: 200px;
+    height: 1000px;
+    display: none;
+    background-color: #1a1a1a;
+    animation-name: slidein2;
+    animation-duration: 1s;
+}
+
+#menu3{
+    margin-top: -8px;
+    position: fixed;
+    width: 200px;
+    height: 1000px;
+    display: none;
+    background-color: #1a1a1a;
+    animation-name: slidein2;
+    animation-duration: 1s;
+}
+
