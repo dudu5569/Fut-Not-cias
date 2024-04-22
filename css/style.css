@@ -335,7 +335,7 @@ ul {
 }
 
 #menu3{
-    margin-top: -2%;
+    margin-top: -3%;
     position: fixed;
     width: 200px;
     height: 1000px;
@@ -426,9 +426,4 @@ ul {
 
 }
 
-@media screen and (max-width:768px){
-    #breaddiv{
-        margin-top: 15%;
-    }
-}
 
